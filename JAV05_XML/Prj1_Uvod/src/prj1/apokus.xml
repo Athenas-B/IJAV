@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<firma ico="123456">
+    <zamestnanec id = "1001" role="ředitel">
+        <jmeno>Pepa</jmeno>
+        <prijmeni>Buk</prijmeni>
+        <narozen>13-7-1986</narozen>
+        <plat>30000</plat>
+    </zamestnanec>
+    <zamestnanec id = "1002" role="dělnik">
+        <jmeno>Aleš</jmeno>
+        <prijmeni>Bubák</prijmeni>
+        <narozen>3-4-1997</narozen>
+        <plat>12000</plat>
+    </zamestnanec>
+
+</firma>

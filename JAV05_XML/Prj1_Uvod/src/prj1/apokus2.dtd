@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/apokus2.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE firma SYSTEM "apokus2.dtd">
+
+    <firma>
+    ...
+    </firma>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT firma (zamestnanec)*>
+<!ATTLIST firma
+    ico CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT zamestnanec (jmeno|prijmeni|narozen|plat)*>
+<!ATTLIST zamestnanec
+    id CDATA #IMPLIED
+    role CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT jmeno (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT prijmeni (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT narozen (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT plat (#PCDATA)>
